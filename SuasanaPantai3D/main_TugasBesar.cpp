@@ -425,7 +425,7 @@ void display(void) {
    draw_kapal_laut();
    draw_matahari();
    
-   //pelampung
+  //pelampung
    glPushMatrix();
    glColor3f(1.0f, 0.0f, 0.0f);
    glTranslatef (-4.25, -1.0, -10.0);
@@ -453,7 +453,7 @@ void display(void) {
    glScalef (0.1, 0.1, 0.1);
    glutSolidSphere(1.0, 16, 16);
    glPopMatrix();
-   
+    
    glutSwapBuffers();
    sudutputar -= 0.1f;
    if(sudutputar<-360) sudutputar=360;
